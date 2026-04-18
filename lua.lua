@@ -26,10 +26,6 @@ local ok, err = pcall(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Shookenblook/Venom/refs/heads/main/Venom.lol"))()
 end)
 
-local ok, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
-    end)
-
 if not ok then
     warn("Failed to load script:", err)
 end
